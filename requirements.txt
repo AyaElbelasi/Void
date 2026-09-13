@@ -1,0 +1,23 @@
+# Inferred from the imports in void_app.py and rag_demo.py — no version pins were
+# in the original project, so none are given here.
+
+# GUI
+PyQt6
+
+# Markdown rendering inside chat bubbles
+markdown
+
+# Local user database (users.xlsx)
+openpyxl
+
+# RAG / retrieval stack
+langchain-community
+langchain-chroma
+chromadb
+sentence-transformers          # pulls the BAAI/bge-small-en-v1.5 embedding model
+
+# Local LLM inference (llama.cpp bindings)
+llama-cpp-python
+
+# Only needed for rag_demo.py, which talks to an OpenAI-compatible local server
+langchain-openai
