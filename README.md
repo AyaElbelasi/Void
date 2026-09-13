@@ -10,8 +10,6 @@ The point of the project was to build a complete retrieval-augmented-generation 
 end to end — embeddings, a vector store, a fine-tuned local model, and the prompt logic that
 ties them together — instead of calling a hosted model.
 
-![VOID](media/void-cover.png)
-
 ## What it does
 
 You ask it an aerospace question. Before the model answers, VOID searches a vector database
